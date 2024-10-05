@@ -1,0 +1,31 @@
+@media (min-width: 768px) {
+    .main-box {
+      flex-direction: row;
+    }
+    footer{
+      padding: 3.2rem;
+      bottom: 0;
+      overflow: hidden;
+    }
+    .nav-links li:hover{
+        border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    }
+    textarea{
+      height: 50vh;
+    }
+  }
+  @media (max-width:768px) {
+    footer{
+      padding: 1.5rem;
+    }
+    .send-box{
+      margin-top: 6vh;
+    }
+    textarea{
+      height: 50vh;
+    }
+  }
+
+  

@@ -1,0 +1,120 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+body, html {
+  height: 100%;
+  margin: 0; 
+  display: flex;
+  flex-direction: column; 
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background: linear-gradient(135deg, #181b27, #b4a9c0);
+  color: #2d3748;
+  flex-grow: 1;
+}
+
+
+.main-box {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.send-box {
+  user-select: none; 
+  border: 1px solid black;
+  margin: 10px;
+  flex: 1;
+  background-Color: rgb(218, 218, 218);
+  padding: 2rem;
+  border-Radius: 12px;
+  box-Shadow: 0 10px 15px -3px rgba(6, 3, 3, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+.send-box textarea::placeholder{
+  color: rgb(2, 199, 41);
+  opacity: 80%;
+}
+.send-nav {
+  display: flex;
+  margin-Bottom: 1.5rem;
+  flex-Direction: column;
+}
+#send-code {
+  width: 100%;
+  margin-Bottom: 0.75rem;
+  padding: 0.75rem;
+  border-Radius: 8px;
+  border: 1px solid #e2e8f0;
+  font-Size: 1rem;
+  background-Color: #f7fafc;
+}
+
+.receive-box {
+  user-select: none; 
+  margin: 10px;
+  border: 1px solid black;
+  flex: 1;
+  background-Color: rgb(218, 218, 218);
+  padding: 2rem;
+  border-Radius: 12px;
+  box-Shadow: 0 10px 15px -3px rgba(255, 6, 6, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+.receive-box textarea::placeholder{
+  color: rgb(199, 2, 2);
+  opacity: 80%;
+}
+.receive-nav {
+  display: flex;
+  margin-Bottom: 1.5rem;
+  flex-Direction: column;
+}
+
+#receive-code {
+  width: 100%;
+  padding: 10px;
+  margin-Bottom: 0.75rem;
+  padding: 0.75rem;
+  border-Radius: 5px;
+  border: 1px solid #e2e8f0;
+  font-Size: 1rem;
+}
+
+.sub-heading {
+  font-Size: 1.5rem;
+  font-Weight: bold;
+  margin-Bottom: 1.5rem;
+  color: #4a5568;
+}
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #000000;
+  color: #ffffff;
+}
+footer {
+  background: linear-gradient(135deg, #181b27, #b4a9c0);
+  color: white;
+  text-align: center;
+  box-shadow: 0 -4px 6px rgba(50, 50, 93, 0.11), 0 -1px 3px rgba(0, 0, 0, 0.08);
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+
+
+
